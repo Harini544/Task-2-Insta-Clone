@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagrams</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="script.js"></script>
+
+</head>
+<body>  
+
+    <div class="container">
+        <div class="posts">
+            <div class="post-title">
+                <div class="post-left">
+                    <div class="image">
+                        <img src="./img1.jpg" alt="" width="32" height="32"/>
+                    </div>
+                    <div class="details">
+                        <p class="name">Lakshmi  </p><p class="follow">      . Follow</p>
+                        <p class="location">Kavali</p>
+                    </div>
+                </div>
+                <div class="post-right">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="post-content">
+                <img src="./img2.jpg" alt="" width="500" height="550"/>
+            </div>
+            <div class="post-footer">
+                <div class="like-share-comment">
+                    <div class="btn">
+                    <i onClick="like()" class="fa fa-heart"></i>
+                    <i  class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                </div>
+                </div>
+                <div class="save">
+                    <i onClick="bookmark()" id="btn1" class="far fa-bookmark"></i>
+                </div>
+            </div>
+            <div class="footer-content">
+                <p class="likes">250 likes</p>
+                <p class="name">Lakshmi <spam class="sp">#Nature &#10084</spam></p>
+                <p class="comments">view all 35 comments</p>
+                <p class="time">15 hours ago</p>
+            </div>
+            <div class="add-comment">
+                <div class="left-side">
+                    <i class="far fa-smile-beam"></i>
+                    <input type="text" placeholder="Add a comment…" />
+                </div>
+                <div class="right-side">
+                    <p>Post</p>
+                </div>
+            </div>
+        </div>
+        <div class="posts">
+            <div class="post-title">
+                <div class="post-left">
+                    <div class="image">
+                        <img src="./img3.jpg" alt="" width="32" height="32"/>
+                    </div>
+                    <div class="details">
+                        <p class="name">Nikhil  </p><p class="follow">      . Follow</p>
+                        <p class="location">Banglore</p>
+                    </div>
+                </div>
+                <div class="post-right">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="post-content">
+                <video width="500" height="550" controls>
+                    <source src="reel1.mp4" type="video/mp4">
+                    <source src="reel1.ogg" type="video/ogg">
+                  </video>
+            </div>
+            <div class="post-footer">
+                <div class="like-share-comment">
+                    <i onClick="like()" id="btn" class="fa fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                </div>
+                <div class="save">
+                    <i onClick="bookmark()" id="btn1" class="fa fa-bookmark"></i>
+                </div>
+            </div>
+            <div class="footer-content">
+                <p class="likes">1028 likes</p>
+                <p class="name">Nikhil <spam class="sp">Mini world&#128562&#128562</spam></p>
+                <p class="comments">view all 198 comments</p>
+                <p class="time">2 days ago</p>
+            </div>
+            <div class="add-comment">
+                <div class="left-side">
+                    <i class="far fa-smile-beam"></i>
+                    <input type="text" placeholder="Add a comment…" />
+                </div>
+                <div class="right-side">
+                    <p>Post</p>
+                </div>
+            </div>
+        </div>
+        <div class="posts">
+            <div class="post-title">
+                <div class="post-left">
+                    <div class="image">
+                        <img src="./img4.jpg" alt="" width="32" height="32"/>
+                    </div>
+                    <div class="details">
+                        <p class="name">Surbhi </p><p class="follow">. Follow</p>
+                        <p class="location">Mumbai</p>
+                    </div>
+                </div>
+                <div class="post-right">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="post-content">
+                <video width="500" height="550" controls>
+                    <source src="reel2.mp4" type="video/mp4">
+                    <source src="reel2.ogg" type="video/ogg">
+                  </video>
+            </div>
+            <div class="post-footer">
+                <div class="like-share-comment">
+                    <i onClick="like()" id="btn" class="fa fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                </div>
+                <div class="save">
+                    <i onClick="bookmark()" id="btn1"class="fa fa-bookmark"></i>
+                </div>
+            </div>
+            <div class="footer-content">
+                <p class="likes">5534 likes</p>
+                <p class="name">Surbhi <spam class="sp">#prooooo...😂</spam></p>
+                <p class="comments">view all 1673 comments</p>
+                <p class="time">10 days ago</p>
+            </div>
+            <div class="add-comment">
+                <div class="left-side">
+                    <i class="far fa-smile-beam"></i>
+                    <input type="text" placeholder="Add a comment…" />
+                </div>
+                <div class="right-side">
+                    <p>Post</p>
+                </div>
+            </div>
+        </div>
+        <div class="posts">
+            <div class="post-title">
+                <div class="post-left">
+                    <div class="image">
+                        <img src="./img3.jpg" alt="" width="32" height="32"/>
+                    </div>
+                    <div class="details">
+                        <p class="name">SudheerRashmi  </p><p class="follow">      . Follow</p>
+                        <p class="location">Hyderabad</p>
+                    </div>
+                </div>
+                <div class="post-right">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="post-content">
+                <video width="500" height="550" controls>
+                    <source src="reel3.mp4" type="video/mp4">
+                    <source src="reel3.ogg" type="video/ogg">
+                  </video>
+            </div>
+            <div class="post-footer">
+                <div class="like-share-comment">
+                    <i onClick="like()" id="btn" class="fa fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                </div>
+                <div class="save">
+                    <i onClick="bookmark()" id="btn1" class="fa fa-bookmark"></i>
+                </div>
+            </div>
+            <div class="footer-content">
+                <p class="likes">12006 likes</p>
+                <p class="name">SudheerRashmi <spam class="sp">Evergreen  &#128158</spam></p>
+                <p class="comments">view all 1765 comments</p>
+                <p class="time">5 days ago</p>
+            </div>
+            <div class="add-comment">
+                <div class="left-side">
+                    <i class="far fa-smile-beam"></i>
+                    <input type="text" placeholder="Add a comment…" />
+                </div>
+                <div class="right-side">
+                    <p>Post</p>
+                </div>
+            </div>
+        </div>
+        <div class="posts">
+            <div class="post-title">
+                <div class="post-left">
+                    <div class="image">
+                        <img src="./img9.jpg" alt="" width="32" height="32"/>
+                    </div>
+                    <div class="details">
+                        <p class="name">rutik_thakor </p><p class="follow">      . Follow</p>
+                        <p class="location">Ahmedabad</p>
+                    </div>
+                </div>
+                <div class="post-right">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="post-content">
+                <video width="500" height="550" controls>
+                    <source src="reel4.mp4" type="video/mp4">
+                    <source src="reel4.ogg" type="video/ogg">
+                  </video>
+            </div>
+            <div class="post-footer">
+                <div class="like-share-comment">
+                    <i onClick="like()" id="btn" class="fa fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                </div>
+                <div class="save">
+                    <i onClick="bookmark()" id="btn1" class="fa fa-bookmark"></i>
+                </div>
+            </div>
+            <div class="footer-content">
+                <p class="likes">5534 likes</p>
+                <p class="name">rutik_thakor<spam class="sp">Bike lover &#127949 &#127949</spam></p>
+                <p class="comments">view all 1583 comments</p>
+                <p class="time">1 hour ago</p>
+            </div>
+            <div class="add-comment">
+                <div class="left-side">
+                    <i class="far fa-smile-beam"></i>
+                    <input type="text" placeholder="Add a comment…" />
+                </div>
+                <div class="right-side">
+                    <p>Post</p>
+                </div>
+            </div>
+        </div>
+        <div class="posts">
+            <div class="post-title">
+                <div class="post-left">
+                    <div class="image">
+                        <img src="./img6.jpg" alt="" width="32" height="32"/>
+                    </div>
+                    <div class="details">
+                        <p class="name">b.techbabu..  </p><p class="follow">      . Follow</p>
+                        <p class="location">Chennai</p>
+                    </div>
+                </div>
+                <div class="post-right">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="post-content">
+                <img src="./img5.jpg" alt="" width="500" height="550"/>
+            </div>
+            <div class="post-footer">
+                <div class="like-share-comment">
+                    <i onClick="like()" id="btn" class="fa fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                </div>
+                <div class="save">
+                    <i onClick="bookmark()" id="btn1" class="fa fa-bookmark"></i>
+                </div>
+            </div>
+            <div class="footer-content">
+                <p class="likes">250 likes</p>
+                <p class="name">b.techbabu.. <spam class="sp">fun....😆</spam>
+                <p class="comments">view all 350 comments</p>
+                <p class="time">11 hours ago</p>
+            </div>
+            <div class="add-comment">
+                <div class="left-side">
+                    <i class="far fa-smile-beam"></i>
+                    <input type="text" placeholder="Add a comment…" />
+                </div>
+                <div class="right-side">
+                    <p>Post</p>
+                </div>
+            </div>
+        </div>
+        <div class="posts">
+            <div class="post-title">
+                <div class="post-left">
+                    <div class="image">
+                        <img src="./img7.jpg" alt="" width="32" height="32"/>
+                    </div>
+                    <div class="details">
+                        <p class="name">music_ </p><p class="follow">      . Follow</p>
+                        <p class="location">Ahmedabad</p>
+                    </div>
+                </div>
+                <div class="post-right">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="post-content">
+                <video width="500" height="550" controls>
+                    <source src="reel5.mp4" type="video/mp4">
+                    <source src="reel5.ogg" type="video/ogg">
+                  </video>
+            </div>
+            <div class="post-footer">
+                <div class="like-share-comment">
+                    <i onClick="like()" id="btn" class="fa fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                </div>
+                <div class="save">
+                    <i onClick="bookmark()" id="btn1" class="fa fa-bookmark"></i>
+                </div>
+            </div>
+            <div class="footer-content">
+                <p class="likes">4534 likes</p>
+                <p class="name">music_<spam class="sp">love this song...&#119072&#119072</spam></p>
+                <p class="comments">view all 583 comments</p>
+                <p class="time">2 hour ago</p>
+            </div>
+            <div class="add-comment">
+                <div class="left-side">
+                    <i class="far fa-smile-beam"></i>
+                    <input type="text" placeholder="Add a comment…" />
+                </div>
+                <div class="right-side">
+                    <p>Post</p>
+                </div>
+            </div>
+        </div>
+        <div class="posts">
+            <div class="post-title">
+                <div class="post-left">
+                    <div class="image">
+                        <img src="./img8.jpg" alt="" width="32" height="32"/>
+                    </div>
+                    <div class="details">
+                        <p class="name">Star Lord </p><p class="follow">      . Follow</p>
+                        <p class="location">Anantapur</p>
+                    </div>
+                </div>
+                <div class="post-right">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="post-content">
+                <video width="500" height="550" controls>
+                    <source src="reel6.mp4" type="video/mp4">
+                    <source src="reel6.ogg" type="video/ogg">
+                  </video>
+            </div>
+            <div class="post-footer">
+                <div class="like-share-comment">
+                    <i onClick="like()" id="btn" class="fa fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                </div>
+                <div class="save">
+                    <i onClick="bookmark()" id="btn1" class="fa fa-bookmark"></i>
+                </div>
+            </div>
+            <div class="footer-content">
+                <p class="likes">8763 likes</p>
+                <p class="name">Star Lord<spam class="sp">&#x1F631&#x1F631</spam></p>
+                <p class="comments">view all 3054 comments</p>
+                <p class="time">3 hours ago</p>
+            </div>
+            <div class="add-comment">
+                <div class="left-side">
+                    <i class="far fa-smile-beam"></i>
+                    <input type="text" placeholder="Add a comment…" />
+                </div>
+                <div class="right-side">
+                    <p>Post</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>    
+
+var btn=document.getElementsByClassName('btn');
+function like()
+{
+
+ if(btn.classList.contains("far")){
+ btn.classList.remove("far");
+ btn.classList.add("fas");}
+ else{
+  btn.classList.remove("fas");
+  btn.classList.add("far");
+ }
+}
+var btn1=document.getElementById('btn1');
+function bookmark()
+{
+ if(btn1.classList.contains("far")){
+ btn1.classList.remove("far");
+ btn1.classList.add("fas");}
+ else{
+  btn1.classList.remove("fas");
+  btn1.classList.add("far");
+ }
+}
+</script>
+</body>
+</html>
